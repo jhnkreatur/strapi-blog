@@ -1,0 +1,32 @@
+.hamburger {
+  width: 30px;
+  height: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  position: relative;
+}
+
+.line {
+  height: 2px;
+  background-color: #21243d;
+}
+
+.hamburger.open {
+  transform: rotate(-45deg);
+}
+
+.open .line:nth-child(1) {
+  transform: rotate(90deg);
+}
+
+.open .line:nth-child(2) {
+  transform: rotate(45deg);
+  opacity: 0;
+}
+
+.open .line:nth-child(3) {
+  /* position: absolute; */
+  transform: translateY(-15px);
+}

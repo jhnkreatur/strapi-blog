@@ -1,0 +1,22 @@
+.recentPosts {
+  margin-top: 2rem;
+  text-align: center;
+  background-color: var(--secondary-light);
+}
+
+.title {
+  font-size: 1.125rem;
+  font-weight: 400;
+  padding-top: 2rem;
+}
+
+.view__all {
+  visibility: hidden;
+}
+
+.posts__container {
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+}
